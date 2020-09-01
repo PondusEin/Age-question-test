@@ -12,7 +12,7 @@ int main()
 	if (user_age >= 20) {
 		std::cout << "Wow, you're an adult!";
 	}
-	if (user_age < 20) {
-		std::cout << "Wowie, you're a kid!\n" << "Fuck off.";
+	else {
+		std::cout << "Wowie, you're a kid!\nFuck off.";
 	}
 }
