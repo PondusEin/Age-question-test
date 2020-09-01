@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <conio.h>
 int user_age;
 
 
@@ -15,4 +16,5 @@ int main()
 	else {
 		std::cout << "Wowie, you're a kid!\nFuck off.";
 	}
+	char s = _getch();
 }
